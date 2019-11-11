@@ -1,0 +1,100 @@
+   
+       /* 公共样式 */
+        /* 目的:是保证中文属性出现不会乱码  "微软雅黑",'楷体'   */
+        
+        @charset "UTF-8";
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font: normal 400 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #b0b0b0;
+        }
+        
+        img {
+            /* 取消ie8下图片边框 */
+            border: 0;
+            /* 取消图片下间隙 */
+            vertical-align: top;
+        }
+        
+        ul li,
+        ol li {
+            list-style: none;
+        }
+        
+        em,
+        i,
+        strong,
+        b {
+            font-style: normal;
+            font-weight: 400;
+        }
+        
+        .f_l {
+            float: left;
+        }
+        
+        .f_r {
+            float: right;
+        }
+        
+        input,
+        textarea {
+            border: none;
+            /* 取消蓝色外轮廓 */
+            outline: none;
+        }
+        
+        .clearFix::after,
+        .clearFix::before {
+            content: '';
+            line-height: 0;
+            height: 0;
+            display: block;
+            clear: both;
+        }
+        
+        .maincolor {
+            color: #ff6700;
+        }
+        a:hover {
+            color: #ff6700;
+        }
+
+        /* 版心类  wrap  */
+        .w {
+
+            width: 1226px;
+            /* 居中放置 */
+            margin: 0 auto;
+            /* margin-left: auto;
+            margin-right: auto; */
+
+        }
+
+        /* 网络字体声明 是因为客户端没有这个字体 */
+
+        @font-face {
+            font-family: 'iconfont';
+            src: url('iconfont.eot');
+            src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+                url('iconfont.woff2') format('woff2'),
+                url('iconfont.woff') format('woff'),
+                url('iconfont.ttf') format('truetype'),
+                url('iconfont.svg#iconfont') format('svg');
+          }
+      
+      .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }

@@ -1,0 +1,17 @@
+/* 页脚开始 */
+.foot{
+    margin-top: 370px;
+    
+}
+.foot ul li{
+    
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    padding: 10px;
+}
+.foot .space-line{
+    width: 1px;
+    height: 20px;
+    background-color: black;
+}

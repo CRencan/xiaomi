@@ -1,0 +1,497 @@
+.mainSection {
+    position: relative;
+
+    height: auto;
+}
+.banner-box {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 460px;
+}
+.picTiao {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 500%;
+
+}
+.picTiao li {
+    width: 20%;
+    float: left;
+
+}
+.picTiao li a {
+    width: 100%;
+    display: block;
+
+}
+.picTiao li a img {
+
+    display: block;
+    width: 100%;
+    height: 460px;
+}
+div.arrow {
+    position: absolute;
+    top:50%;
+    margin-top: -34px;
+
+    width: 48px;height: 68px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #888;
+    text-align: center;
+    line-height: 68px;
+    cursor: pointer;
+  
+
+}
+div.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.arrow i {
+    font-size: 35px;
+}
+#prev {
+    left: 234px;
+}
+#next {
+    right: 0;
+}
+.cirlces {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    line-height: 20px;
+}
+.cirlces .yuan {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    border:2px solid #222;
+    background-color: #444;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.cirlces .yuan:hover {
+    background-color: #fff;
+}
+.aside-nav {
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: 233;
+    width: 234px;
+    height: 460px;
+    background-color: rgba(0,0,0,.6);
+}
+.aside-nav ul {
+    width: 100%;
+    height: 460px;
+    padding-top: 45px;
+
+}
+.aside-nav ul li {
+    line-height: 42px;
+    padding: 0px 20px 0px 30px;
+
+
+}
+.aside-nav ul li:hover {
+    background-color: #ff6700;
+}
+.aside-nav ul li a {
+    display: block;
+    font-size: 14px;
+    float: none;
+}
+.aside-nav ul li a span {
+
+    float: left;
+    color: #efefef;
+
+}
+.aside-nav ul li a i {
+    float: right;
+  
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.link{
+    width: 231px;
+    height: 180px;
+    float: left;
+    border: 1px solid #665E57;
+    margin-top: 20px;
+   text-align: center;
+   background-color: #5F5750;
+    
+}
+.link a {
+    display: block;
+    margin-right: 8px;
+    margin-top: 14px;
+    color:#CFCDCB ;
+}
+.link::before{
+    content: '';
+    display: block;
+    position: relative;
+    left: 70px;
+    top: 93px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5F5750;
+}
+.link::after{
+    content: '';
+    display: block;
+    position: relative;
+    left: 146px;
+    top: 84px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:#5F5750;
+}
+.small{   
+    float: left;
+    margin: 2px;
+    width: 72px;
+    height: 86px;
+    /* background-color: red; */
+}
+
+.link1,.link2,.link3{
+    border-bottom:1px solid #665E57;
+
+}
+.link1,.link2,.link4,.link5{
+    border-right: 1px solid #665E57;
+}
+.hot{
+    float: left;
+    margin-left: 20px;
+    margin-top:20px;
+    width: 308px;
+    height: 180px;
+    border:1px solid  #ff6700
+}
+.hot a{
+    display: block;
+    width: 308px;
+    height: 200px;
+}
+.hot-show{
+    overflow: hidden;
+}
+.barner{
+    margin-top: 20px;
+    width: 100%;
+    height: 125px;
+   background-color: #ff6700;
+}
+.barner img{
+    width: 100%;
+    height: 125px;
+}
+.phone{
+    margin-top: 20px;
+}
+.type1{
+    font-size: 25px;
+    
+}
+.yuan{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #B0B0B0;
+    float:right;
+    text-align: center;
+    line-height: 21px;
+    font-size: 21px;
+    color: white;
+}
+.more{
+    float:right;
+    margin-top: 2px;
+}
+a{  
+    float:right;
+    display: block;
+    color: black;
+}
+a:hover{
+    color: #ff6700;
+}
+a:hover .yuan{
+    background: #ff6700;
+}
+
+.type1-hot a{
+   float: left;
+    width: 241px;
+    height: 616px;
+    background-color: #ff6700;
+}
+.typ1-hot a:hover{
+box-shadow:2px 2px 5px #888;
+
+}
+.type1-else {
+    position: absolute;
+    margin-left: 260px;
+    width: 969px;
+    height: 614px;
+    border: 1px solid #ff6700;
+    float: right;
+}
+.tel{
+ float: left;
+
+
+}
+/* .tel::before{
+    content: '';
+    display: block;
+    position: relative;
+    
+    left: 20px;
+    top: 20px;
+    width: 20px;
+    height: 10px;
+    background-color: green;
+} */
+.tel a{
+    width: 228px;
+    height: 300px;
+    border: 1px solid #888;
+    float: none;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.phone1 a::before{
+    content: '新品';
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 58px;
+    height: 23px;
+    background-color: #83C44E;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+}
+.phone4 a::before{
+    content: '秒杀';
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 58px;
+    height: 23px;
+    background-color: #E53935;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+}
+.phone5 a::before {
+    content: '秒杀';
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 58px;
+    height: 23px;
+    background-color: #E53935;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+}
+.phone7 a::before{
+    content: '秒杀';
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 58px;
+    height: 23px;
+    background-color: #E53935;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+}
+.phone6 a::before{
+    content: '减200元';
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 58px;
+    height: 23px;
+    background-color: #E53935;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+}
+.tel a:hover{
+    box-shadow:5px 10px  15px #888;
+}
+.phone1 a,.phone2 a,.phone3 a,.phone4 a{
+    margin-top: 0px;
+}
+.type2{
+ margin-top: 640px;
+ height: 200px;
+}
+.type2 .content{
+    font-size: 25px;
+    display: block;
+}
+.eco{
+    width: 300px;
+    height: 430px;
+    border: 1px solid #ff6700;
+    float: left;
+    margin-right: 6px;
+    text-align: center;
+}
+.eco:hover{
+    box-shadow:5px 10px  15px #888;
+}
+.app{
+    margin-right: 0;
+}
+.dian{
+    width: 100%;
+    height: 20px;
+    margin-top: 217px;
+    
+    text-align: center;
+}
+.dian .yuan {
+    position: relative;
+    top: -13px;
+    left: -76px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 17px;
+    border:2px solid rgb(250, 249, 249);
+    background-color: rgb(209, 203, 203);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.eco .yuan:hover {
+    background-color: #fff;
+    border:2px solid #ff6700;
+}
+.book{
+    color: #ff6700;
+    border-top:2px solid #ff6700;
+}
+.miui{
+    color:  green;
+    border-top:2px solid green;
+}
+.game{
+    color: red;
+    border-top:2px solid red;
+}
+.app{
+    color: blue;
+    border-top:2px solid blue;
+}
+.p1{
+    font-size: 16px;
+    margin-top: 45px;
+}
+.p2{
+    font-size: 20px;
+    color: #333;
+    margin: 20px;
+    
+}
+.p3{
+    color: #B0B0B0;
+    margin: 20px;
+}
+.p4{
+    color: #333;
+}
+.eco img{
+    float: left;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+
+.miui img {
+    margin-top: 20px;
+}
+.eco::before{
+    position:relative;
+    top: 50%;
+    float: left;
+    visibility:hidden;
+    content: '<';
+    width: 15px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: rgba(0, 0,0,0.3)
+}
+.eco::after{
+    background-color: red;
+    position:relative;
+    top: -220px;
+    right: -139px;
+    float: right;
+    visibility:hidden;
+    content: '>';
+    width: 15px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: rgba(0, 0,0,0.3)
+}
+.eco:hover::before{
+    visibility:visible;
+}
+.eco:hover::after
+{
+    visibility:visible;
+}
+/* .fixed{
+    width: 30px;
+    height: 100px;
+    position: fixed;
+    margin-right: 0px;
+    margin-top: 50%;
+    background-color: red;
+} */
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('iconfont.woff2') format('woff2'),
+        url('iconfont.woff') format('woff'),
+        url('iconfont.ttf') format('truetype'),
+        url('iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
